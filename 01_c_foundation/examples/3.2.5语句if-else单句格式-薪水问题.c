@@ -8,7 +8,7 @@ int main()
 	int hours;
 	double pay;
 	
-	printf("请输入工作小时数\n");
+	printf("璇疯緭鍏ュ伐浣滃皬鏃舵暟\n");
 	scanf("%d",&hours);
 	
 	if(hours>STANDARD)

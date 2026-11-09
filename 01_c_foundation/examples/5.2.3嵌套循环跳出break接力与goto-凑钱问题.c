@@ -11,10 +11,10 @@ int main()
 		for(two=1;two<10/2*x;two++){
 			for(five=1;five<10/5*x;five++){
 			    if(one+two*2+five*5==x*10){
-					printf("%dÒ¼½Ç+%d·¡½Ç+%dÎé½Ç\n",one,two,five);
+					printf("%då£¹è§’+%dè´°è§’+%dä¼è§’\n",one,two,five);
 				    exit=1;
 					break;
-					//»ògoto out;
+					//æˆ–goto out;
 				}	
 		    }	
 		    if(exit==1)break;

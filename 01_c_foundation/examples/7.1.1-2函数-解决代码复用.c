@@ -8,7 +8,7 @@ int isPrime(int i)
 			ret=0;
 		}
 	}
-	return ret;//函数返回值是ret
+	return ret;//鍑芥暟杩斿洖鍊兼槸ret
 }
 
 int main()

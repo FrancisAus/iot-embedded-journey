@@ -6,7 +6,7 @@ int main()
 	int sum = 0;
 	int count = 0;
 	
-	printf("input num£¬input -1 can end the caculation\n");
+	printf("input numï¼Œinput -1 can end the caculation\n");
 	scanf("%d",&num);
 	
 	while(num != -1){

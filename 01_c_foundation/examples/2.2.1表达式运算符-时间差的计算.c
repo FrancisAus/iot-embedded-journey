@@ -5,8 +5,8 @@ int main()
 	int hour1,minute1;
 	int hour2,minute2;
 	
-	printf("ÇëÊäÈëÁ½×éÊ±¼ä£¨ÒÔ´ÓĞ¡µ½´óĞÎÊ½£©ÒÔ¼ÆËãÊ±¼ä²î£¬"
-	"ÀıÈç\"1 10,2 30\"\n");
+	printf("è¯·è¾“å…¥ä¸¤ç»„æ—¶é—´ï¼ˆä»¥ä»å°åˆ°å¤§å½¢å¼ï¼‰ä»¥è®¡ç®—æ—¶é—´å·®ï¼Œ"
+	"ä¾‹å¦‚\"1 10,2 30\"\n");
 	scanf("%d %d,%d %d",&hour1,&minute1,&hour2,&minute2);
 	
 	int time1 = (hour1 * 60) + minute1;
@@ -14,7 +14,7 @@ int main()
 	
 	int answer = time2 - time1;
 	
-	printf("Ê±¼ä²îÎª%dĞ¡Ê±%d·ÖÖÓ\n",answer/60,answer%60);
+	printf("æ—¶é—´å·®ä¸º%då°æ—¶%dåˆ†é’Ÿ\n",answer/60,answer%60);
 	
 	return 0;
 }

@@ -17,7 +17,7 @@ int divide(int a,int b,int *c)
 {	
 	int ret = 1;
 	if(b == 0){
-		printf("³ıÊı²»ÄÜÎª0");
+		printf("é™¤æ•°ä¸èƒ½ä¸º0");
 		ret = 0;
 	} else {
 		*c = a/b;

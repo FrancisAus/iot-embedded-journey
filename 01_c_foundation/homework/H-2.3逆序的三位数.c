@@ -4,7 +4,7 @@ int main()
 {
 	int initial = 0;
 	
-	printf("请输入三位数\n");
+	printf("璇疯緭鍏ヤ笁浣嶆暟\n");
 	scanf("%d",&initial);
 	
 	int a = initial/100;
@@ -12,7 +12,7 @@ int main()
 	int c = initial%10;
 		
 	int answer = c * 100 + b * 10 + a;
-	printf("其逆序答案是：%d",answer);
+	printf("鍏堕�嗗簭绛旀鏄細%d",answer);
 	
 	return 0;
 	

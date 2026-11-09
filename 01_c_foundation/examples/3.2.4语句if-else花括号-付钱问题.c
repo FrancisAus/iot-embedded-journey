@@ -5,19 +5,19 @@ int main()
 	int pay = 0;
 	int price = 0;
 	
-	printf("ÇëÊäÈë½ğ¶î\n");
+	printf("è¯·è¾“å…¥é‡‘é¢\n");
 	scanf("%d",&price);
 	
-	printf("ÇëÊäÈë¸¶¿îÆ±Ãæ\n");
+	printf("è¯·è¾“å…¥ä»˜æ¬¾ç¥¨é¢\n");
 	scanf("%d",&pay);
 	
 	if(pay>=price){
 		int change = pay - price;
 		
-		printf("ÕÒÄú%dÔª\n",change);
+		printf("æ‰¾æ‚¨%då…ƒ\n",change);
 	} else{
 		int decline = price - pay;
-		printf("²îÇ®%d\n",decline);
+		printf("å·®é’±%d\n",decline);
 	}
 
 	return 0;

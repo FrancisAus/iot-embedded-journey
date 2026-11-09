@@ -6,15 +6,15 @@ int main()
 	int amount = 100;
 	int price = 0;
 	
-	printf("请输入金额\n");
+	printf("璇疯緭鍏ラ噾棰漒n");
 	scanf("%d",&price);
 	
-	printf("请输入付款票面\n");
+	printf("璇疯緭鍏ヤ粯娆剧エ闈n");
 	scanf("%d",&amount);
 	
 	int change = MONEY + amount - price;
 	
-	printf("找您%d元\n",change);
+	printf("鎵炬偍%d鍏僜n",change);
 	
 	return 0;
 }

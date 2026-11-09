@@ -9,9 +9,9 @@ int main()
 	scanf("%d",&x);
 	
 	if(isPrime(x)){
-		printf("%dÊÇËØÊı\n",x);
+		printf("%dæ˜¯ç´ æ•°\n",x);
 	} else {
-		printf("%d²»ÊÇËØÊı\n",x);
+		printf("%dä¸æ˜¯ç´ æ•°\n",x);
 	}	
 	return 0;	
 }
@@ -28,10 +28,10 @@ int isPrime(int x)
 //			break;
 //		}
 //	}
-	if(x == 1 || (x % 2 ==0 && x != 2)){//forÑ­»·ÖĞÈ¥³ıÅ¼Êı°æ£¬¼õÉÙÑ­»·´ÎÊı
+	if(x == 1 || (x % 2 ==0 && x != 2)){//forå¾ªç¯ä¸­å»é™¤å¶æ•°ç‰ˆï¼Œå‡å°‘å¾ªç¯æ¬¡æ•°
 		ret = 0;
 	} 
-	for(int i=3;i<x;i += 2){//»òµ÷ÓÃÆ½·½¸ùº¯Êıi<x»»Îªi<=sqrt(x)
+	for(int i=3;i<x;i += 2){//æˆ–è°ƒç”¨å¹³æ–¹æ ¹å‡½æ•°i<xæ¢ä¸ºi<=sqrt(x)
 		if(x % i == 0){
 			ret = 0;
 			break;

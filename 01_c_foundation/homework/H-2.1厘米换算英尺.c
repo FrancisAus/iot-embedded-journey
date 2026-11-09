@@ -4,7 +4,7 @@ int main()
 {
 	int cm;
 	
-	printf("请输入厘米以换算为英制单位\n");
+	printf("璇疯緭鍏ュ帢绫充互鎹㈢畻涓鸿嫳鍒跺崟浣峔n");
 	scanf("%d",&cm);
 	
 	int foot = cm / 30.48;

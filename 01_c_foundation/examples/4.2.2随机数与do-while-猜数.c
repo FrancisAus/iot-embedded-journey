@@ -11,21 +11,21 @@ int main()
     
     //int number =26;
     
-    printf("ÎÒÒÑ¾­ÏëºÃÁËÒ»¸öÊı×Ö\n");
+    printf("æˆ‘å·²ç»æƒ³å¥½äº†ä¸€ä¸ªæ•°å­—\n");
    
     do{
-		printf("ÕâÊÇ¸ö1~100Êı×Ö£¬¿ìÀ´²Â²Â°É\n");
+		printf("è¿™æ˜¯ä¸ª1~100æ•°å­—ï¼Œå¿«æ¥çŒœçŒœå§\n");
 		scanf("%d",&a);
 		count ++;
 		    
 		if(a>number){
-			printf("´óÁËÓ´\n");
+			printf("å¤§äº†å“Ÿ\n");
 		} else if(a<number){
-			printf("Ğ¡ÁËÓ´\n");
+			printf("å°äº†å“Ÿ\n");
 		}
 	}while(a != number);
 	
-	printf("²Â¶ÔÁË,ÄãÓÃÁË%d´Î¾Í²Â¶ÔÁË´ğ°¸%d\n",count,number);
+	printf("çŒœå¯¹äº†,ä½ ç”¨äº†%dæ¬¡å°±çŒœå¯¹äº†ç­”æ¡ˆ%d\n",count,number);
 	
 	return 0;
 }

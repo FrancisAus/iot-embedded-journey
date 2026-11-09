@@ -10,7 +10,7 @@ int main()
 	scanf("%d",&n);
 	
 	for(i=1;i<=n;i++){
-		sum += sign / i;//等价于sum = sum + (sign / i);
+		sum += sign / i;//绛変环浜巗um = sum + (sign / i);
 		//sign = -sign;
 	}
 	

@@ -5,7 +5,7 @@ int main()
 	int input;
  	int times=0;
 
- 	printf("请输入数字以确认几位整数\n");
+ 	printf("璇疯緭鍏ユ暟瀛椾互纭鍑犱綅鏁存暟\n");
 	scanf("%d",&input);
 	
 	do{

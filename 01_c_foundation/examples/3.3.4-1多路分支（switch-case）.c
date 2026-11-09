@@ -3,7 +3,7 @@
 int main()
 {
 	int num;
-	printf("ÊäÈë\n");
+	printf("è¾“å…¥\n");
 	scanf("%d",&num);
 	
 	switch(num) {

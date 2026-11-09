@@ -10,15 +10,15 @@ int main()
 	for(int i=2;i<x;i++){
 		if(x % i == 0){
 			isPrime = 0;
-			break;//Ð´ÔÚifÄÚ²¿£¬´Ó¶øÌø³öforÑ­»·
+			break;//å†™åœ¨ifå†…éƒ¨ï¼Œä»Žè€Œè·³å‡ºforå¾ªçŽ¯
 		}
 	}
 	
 	
     if(isPrime==0){
-		printf("·ÇËØÊý");
+		printf("éžç´ æ•°");
 	} else {
-		printf("ËØÊý");
+		printf("ç´ æ•°");
 	}
     return 0;
 }

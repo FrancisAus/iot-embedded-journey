@@ -7,7 +7,7 @@ int main()
 	int minute1;
 	int minute2;
 	
-	printf("请输入两组时间，例如10 50,11 20以计算时间差\n");
+	printf("璇疯緭鍏ヤ袱缁勬椂闂达紝渚嬪10 50,11 20浠ヨ绠楁椂闂村樊\n");
 	scanf("%d %d,%d %d",&hour1,&minute1,&hour2,&minute2);
 	
 	int h_decline = hour2 - hour1;
@@ -18,6 +18,6 @@ int main()
 	 h_decline --;
 	}	
 	
-	printf("时间差为%d小时%d分钟",h_decline,m_decline);
+	printf("鏃堕棿宸负%d灏忔椂%d鍒嗛挓",h_decline,m_decline);
 	return 0;
 }

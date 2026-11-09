@@ -2,7 +2,7 @@
 
 int main()
 {
-	//ö�٣�
+	//枚举：
 	int a,b;
 	int ret;
 	int min;

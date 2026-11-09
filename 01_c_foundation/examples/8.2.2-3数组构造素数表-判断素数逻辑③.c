@@ -5,15 +5,15 @@ int main()
 	int n = 100;
 	int prime[n];
 	
-	//Ê¼»¯Îª1
+	//å§‹åŒ–ä¸º1
 	for(int i=0;i<n;i++){
 		prime[i] = 1;
 	}
 	
 	for(int x=2;x<n;x++){
-		if(prime[x] == 1){//xÊÇËØÊý
+		if(prime[x] == 1){//xæ˜¯ç´ æ•°
 			
-			//°ÑxµÄ±¶Êý±ê¼Ç³É0
+			//æŠŠxçš„å€æ•°æ ‡è®°æˆ0
 			for(int i=2;i*x<n;i++){
 				prime[i*x] = 0;
 			}

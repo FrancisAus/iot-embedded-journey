@@ -90,7 +90,7 @@ int main()
     }else if(result == 0){
         printf("///O");
     }else{
-        printf("ÎŞÈË»ñÊ¤");
+        printf("æ— äººè·èƒœ");
     }
 	    
 	return 0;

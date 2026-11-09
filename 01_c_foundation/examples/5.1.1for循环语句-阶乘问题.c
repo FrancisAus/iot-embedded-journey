@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main()
-/*´Ó1½×³Ëµ½n
+/*ä»Ž1é˜¶ä¹˜åˆ°n
 {
 	int n;
 	int factor=1;
@@ -14,7 +14,7 @@ int main()
 	printf("%d",factor);
     return 0;
 }*/
-//´Ón½×³Ëµ½1
+//ä»Žné˜¶ä¹˜åˆ°1
 {
 	int n;
 	int factor=1;

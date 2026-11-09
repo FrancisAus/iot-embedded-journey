@@ -4,7 +4,7 @@ int main()
 {
 	int x,f;
 	
-	printf("请输入自变量x\n");
+	printf("璇疯緭鍏ヨ嚜鍙橀噺x\n");
 	scanf("%d",&x);
 	
 	switch(x<0) {
@@ -16,7 +16,7 @@ int main()
 		    break;
 	}
 		
-	printf("分段函数的输出结果为%d",f);
+	printf("鍒嗘鍑芥暟鐨勮緭鍑虹粨鏋滀负%d",f);
 	
 	return 0;
 	

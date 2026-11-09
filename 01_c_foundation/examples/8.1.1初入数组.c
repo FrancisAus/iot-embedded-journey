@@ -5,11 +5,11 @@ int main()
 	double sum = 0;
 	int cnt = 0;
 	int a;
-	int num[100];  //¶¨ÒåÊı×é
+	int num[100];  //å®šä¹‰æ•°ç»„
 	
 	scanf("%d",&a);
 	while(a != -1){
-		num[cnt] = a;  //¶ÔÊı×éÔªËØ¸³Öµ
+		num[cnt] = a;  //å¯¹æ•°ç»„å…ƒç´ èµ‹å€¼
 		{
 			printf("\n%d\t",cnt);
 			for(int m=0;m<=cnt;m++){
@@ -27,9 +27,9 @@ int main()
 		printf("%f\n",sum);
 		for(int i=0;i<cnt;i++){
 			if(num[i] > sum){
-				printf("%d\t",num[i]);  //µ÷ÓÃÊı×éÔªËØ
+				printf("%d\t",num[i]);  //è°ƒç”¨æ•°ç»„å…ƒç´ 
 			}
-		}  //±éÀúÊı×é
+		}  //éå†æ•°ç»„
 	} 
 	return 0;	
 }

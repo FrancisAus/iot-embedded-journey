@@ -3,7 +3,7 @@
 int main()
 {
 	int input;
-	printf("请输入[0,153]的整数，保证能转回有效的BCD数\n");
+	printf("璇疯緭鍏0,153]鐨勬暣鏁帮紝淇濊瘉鑳借浆鍥炴湁鏁堢殑BCD鏁癨n");
 	scanf("%d",&input);
 	
 	printf("%x",input);

@@ -19,7 +19,7 @@ int main()
 	}
 	
 	for(int i=0;i<num;i++){
-		printf("%d:%d´Î\t",i,count[i]);	
+		printf("%d:%dæ¬¡\t",i,count[i]);	
 	}
 	
 	return 0;	

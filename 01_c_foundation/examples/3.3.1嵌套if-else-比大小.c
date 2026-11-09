@@ -4,7 +4,7 @@ int main()
 {
 	int a,b,c;
 	
-	printf("ÇëÊäÈëÈı¸öÊı£¬ÒÔ±È½Ï´óĞ¡\n");
+	printf("è¯·è¾“å…¥ä¸‰ä¸ªæ•°ï¼Œä»¥æ¯”è¾ƒå¤§å°\n");
 	scanf("%d %d %d",&a,&b,&c);
 	
 	int max = 0;
@@ -19,7 +19,7 @@ int main()
 		} else max = b;
 	}
 	
-    printf("%d×î´ó",max);
+    printf("%dæœ€å¤§",max);
 	
 	return 0;
 }

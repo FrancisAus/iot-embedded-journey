@@ -5,7 +5,7 @@ int main(void){
 	int n;
 	int *a;
 	
-	printf("输入申请几个int内存\n");
+	printf("杈撳叆鐢宠鍑犱釜int鍐呭瓨\n");
 	scanf("%d",&n);
 	
 	//int a[n];		//VLA,C99;

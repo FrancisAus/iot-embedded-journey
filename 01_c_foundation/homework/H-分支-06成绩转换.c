@@ -3,7 +3,7 @@
 int main()
 {
 	int grade;
-	printf("³É¼¨\n");
+	printf("æˆç»©\n");
 	scanf("%d",&grade);
 	
 	int num = grade/10;

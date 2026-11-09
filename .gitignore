@@ -5,3 +5,6 @@
 .vscode/
 .idea/
 Debug/
+
+*.bak
+GBK2UTF8-result-*.md

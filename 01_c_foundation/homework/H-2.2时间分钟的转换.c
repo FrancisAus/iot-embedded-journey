@@ -4,12 +4,12 @@ int main()
 {
 	int begin = 0;
 	int duration =0;
-	printf("ÇëÊäÈëÆğÊ¼Ê±¼ä¿Õ¸ñÁ÷ÊÅÊ±¼ä\n");
+	printf("è¯·è¾“å…¥èµ·å§‹æ—¶é—´ç©ºæ ¼æµé€æ—¶é—´\n");
 	scanf("%d %d",&begin,&duration);
 	
 	int all_minute = (begin/100)*60 + (begin%100) + duration;
 	int ans = (all_minute/60)*100 +(all_minute%60);
-	printf("ÖÕÖ¹Ê±¼äÎª%d",ans);
+	printf("ç»ˆæ­¢æ—¶é—´ä¸º%d",ans);
 	
 	return 0;
 	
