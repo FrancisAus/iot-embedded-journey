@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+	int cm;
+	
+	printf("请输入厘米以换算为英制单位\n");
+	scanf("%d",&cm);
+	
+	int foot = cm / 30.48;
+	int inch = ((cm / 30.48) - foot) *12;
+	printf("%d %d",foot,inch);
+	
+	return 0;
+}
