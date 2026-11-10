@@ -1,0 +1,41 @@
+{
+    "version":  "0.2.0",
+    "configurations":  [
+                           {
+                               "name":  "C/C++: 编译并运行当前文件",
+                               "type":  "cppdbg",
+                               "request":  "launch",
+                               "program":  "${fileDirname}/_run.exe",
+                               "args":  [
+
+                                        ],
+                               "stopAtEntry":  false,
+                               "cwd":  "${fileDirname}",
+                               "environment":  [
+                                                   {
+                                                       "name":  "PATH",
+                                                       "value":  "D:\\MSYS2\\ucrt64\\bin;${env:PATH}"
+                                                   },
+                                                   {
+                                                       "name":  "TEMP",
+                                                       "value":  "D:\\Temp"
+                                                   },
+                                                   {
+                                                       "name":  "TMP",
+                                                       "value":  "D:\\Temp"
+                                                   }
+                                               ],
+                               "externalConsole":  false,
+                               "MIMode":  "gdb",
+                               "miDebuggerPath":  "D:/MSYS2/ucrt64/bin/gdb.exe",
+                               "setupCommands":  [
+                                                     {
+                                                         "description":  "为 gdb 启用整齐打印",
+                                                         "text":  "-enable-pretty-printing",
+                                                         "ignoreFailures":  true
+                                                     }
+                                                 ],
+                               "preLaunchTask":  "编译当前文件"
+                           }
+                       ]
+}

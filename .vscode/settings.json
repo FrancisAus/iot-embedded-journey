@@ -1,0 +1,26 @@
+{
+    "files.encoding":  "utf8",
+    "files.autoGuessEncoding":  true,
+    "terminal.integrated.defaultProfile.windows":  "PowerShell",
+    "terminal.integrated.profiles.windows":  {
+                                                 "PowerShell":  {
+                                                                    "source":  "PowerShell",
+                                                                    "icon":  "terminal-powershell"
+                                                                }
+                                             },
+    "terminal.integrated.env.windows":  {
+                                            "Path":  "D:\\MSYS2\\ucrt64\\bin;${env:Path}",
+                                            "TEMP":  "D:\\Temp",
+                                            "TMP":  "D:\\Temp"
+                                        },
+    "C_Cpp.default.cStandard":  "c17",
+    "C_Cpp.default.compilerPath":  "D:/MSYS2/ucrt64/bin/gcc.exe",
+    "code-runner.runInTerminal":  true,
+    "code-runner.fileDirectoryAsCwd":  true,
+    "code-runner.saveFileBeforeRun":  true,
+    "code-runner.clearPreviousOutput":  true,
+    "code-runner.showExecutionMessage":  false,
+    "code-runner.executorMap":  {
+                                    "c":  "gcc -g -finput-charset=UTF-8 -fexec-charset=UTF-8 $fileName -o _run.exe; if ($?) { .\\_run.exe }"
+                                }
+}

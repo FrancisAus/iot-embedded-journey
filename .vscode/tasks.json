@@ -1,0 +1,58 @@
+{
+    "version":  "2.0.0",
+    "tasks":  [
+                  {
+                      "label":  "编译当前文件",
+                      "type":  "shell",
+                      "command":  "powershell.exe",
+                      "args":  [
+                                   "-NoProfile",
+                                   "-ExecutionPolicy",
+                                   "Bypass",
+                                   "-File",
+                                   "${workspaceFolder}/.vscode/build.ps1",
+                                   "${file}"
+                               ],
+                      "options":  {
+                                      "cwd":  "${fileDirname}"
+                                  },
+                      "group":  {
+                                    "kind":  "build",
+                                    "isDefault":  false
+                                },
+                      "presentation":  {
+                                           "reveal":  "always",
+                                           "panel":  "shared",
+                                           "clear":  true
+                                       },
+                      "problemMatcher":  "$gcc"
+                  },
+                  {
+                      "label":  "编译并运行",
+                      "type":  "shell",
+                      "command":  ".\\_run.exe",
+                      "options":  {
+                                      "cwd":  "${fileDirname}",
+                                      "env":  {
+                                                  "TEMP":  "D:\\Temp",
+                                                  "TMP":  "D:\\Temp",
+                                                  "TMPDIR":  "D:\\Temp",
+                                                  "PATH":  "D:\\MSYS2\\ucrt64\\bin;${env:PATH}"
+                                              }
+                                  },
+                      "dependsOn":  "编译当前文件",
+                      "group":  {
+                                    "kind":  "build",
+                                    "isDefault":  true
+                                },
+                      "presentation":  {
+                                           "reveal":  "always",
+                                           "panel":  "dedicated",
+                                           "clear":  true
+                                       },
+                      "problemMatcher":  [
+
+                                         ]
+                  }
+              ]
+}

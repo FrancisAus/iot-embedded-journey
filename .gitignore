@@ -1,8 +1,7 @@
-﻿*.exe
+*.exe
 *.o
 *.obj
 *.vs
-.vscode/
 .idea/
 Debug/
 
