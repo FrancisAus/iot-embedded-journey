@@ -9,5 +9,6 @@ int main(void)
 	scanf("%7s",word2);
 	printf("%s##\n&&%s##\n&&",word,word2);
 	
+	
 	return 0;
 }

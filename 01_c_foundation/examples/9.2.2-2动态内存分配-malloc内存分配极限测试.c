@@ -11,5 +11,4 @@ int main(void){
 	}
 	printf("分配了%d00MB的内存",cnt);
 	return 0;
-	
 }

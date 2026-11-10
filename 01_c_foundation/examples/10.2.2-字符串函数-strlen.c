@@ -17,5 +17,6 @@ int main(int argc,char const *argv[])
 	printf("mylen=%lu\n",mylen(a));
 	printf("sizeof=%lu\n",sizeof(a));
 	
+	
 	return 0;
 }
