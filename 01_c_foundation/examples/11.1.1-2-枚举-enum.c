@@ -17,14 +17,27 @@ int main(int argc, const char *argv[])
 
 void f(enum color output)
 {
-    char* colorname = NULL;
-    switch(output)
-    {
-        case red: colorname = "red";break;
-        case yellow: colorname = "yellow";break;
-        case green: colorname = "green";break;
+    //switch语句中使用枚举类型
+    // char* colorname = NULL;
+    // switch(output)
+    // {
+    //     case red: colorname = "red";break;
+    //     case yellow: colorname = "yellow";break;
+    //     case green: colorname = "green";break;
 
-        default: colorname = "unknown";break;
+    //     default: colorname = "unknown";break;
+    // }
+    // printf("colorname=%s\n",colorname);
+
+    //字符串数组语句中使用枚举类型
+    char *colorname[] = {"red","yellow","green"};
+    if(output>=0 && output<3)
+    {
+        printf("colorname=%s\n",colorname[output]);
     }
-    printf("colorname=%s\n",colorname);
+    else
+    {
+        printf("colorname=unknown\n");
+    }
+    
 }
