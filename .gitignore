@@ -21,3 +21,7 @@ Listings/
 *.sct
 *.iex
 *.uvguix.*
+
+# Keil 工程备份与编译日志
+*.bak_*
+*.log
