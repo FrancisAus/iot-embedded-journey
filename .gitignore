@@ -7,3 +7,17 @@ Debug/
 
 *.bak
 GBK2UTF8-result-*.md
+
+# Keil 编译产物（MDK5）
+Objects/
+Listings/
+*.axf
+*.crf
+*.dep
+*.htm
+*.lnp
+*.lst
+*.map
+*.sct
+*.iex
+*.uvguix.*
