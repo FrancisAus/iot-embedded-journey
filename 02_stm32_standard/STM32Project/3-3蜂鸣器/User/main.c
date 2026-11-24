@@ -15,15 +15,79 @@ int main(void)
 	while (1)
 	{
 		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
-		Delay_ms(100);
+		Delay_ms(200);
 		GPIO_SetBits(GPIOB,GPIO_Pin_12);
-		Delay_ms(100);
+		Delay_ms(700);
+		
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
+		Delay_ms(200);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(700);
+		
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
+		Delay_ms(200);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(700);
+
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
+		Delay_ms(200);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(700);
 		
 		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
 		Delay_ms(100);
 		GPIO_SetBits(GPIOB,GPIO_Pin_12);
 		Delay_ms(700);
 		
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
+		Delay_ms(50);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(700);
+		
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
+		Delay_ms(50);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(500);
+		
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
+		Delay_ms(50);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(500);
+		
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
+		Delay_ms(50);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(100);
+		
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
+		Delay_ms(50);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(100);
+		
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
+		Delay_ms(50);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(100);
+		
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
+		Delay_ms(50);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(100);
+		
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
+		Delay_ms(50);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(50);
+		
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
+		Delay_ms(700);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(700);
+		
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12); 
+		Delay_ms(5000);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(10);
 		
 	}
 }
